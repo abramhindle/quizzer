@@ -1,0 +1,40 @@
+quizzer
+=======
+
+Input: a classlist of student IDs
+Output: a CSV of 
+studentIDExists      <tab> 1
+studentIDDoesntExist <tab> 0
+
+Purpose: Allows you mark a big stack of attendance items by typing in 2 characters per students.
+
+Use:
+
+perl quizzer.pl yourclassids
+
+-> s<tab>
+-> s<tab>
+student1 student2 student3
+-> student<tab>
+student1 student2 student3
+-> student1
+student1 1
+-> a<tab>
+-> abram
+abram 1
+-> hi<tab>
+-> hindle1
+hindle1 1
+
+As you record studentIDs they are removed from the list of possible completions.
+Thus the more students you enter in the faster you can navigate to existing students.
+
+This means you type 2 to 4 characters per student and can check off an entire class quickly!
+
+Requirements
+============
+
+Needs: perl 5.10
+Needs: Slurp
+Needs: Term::ReadLine::Gnu
+
