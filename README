@@ -38,3 +38,9 @@ Needs: perl 5.10
 Needs: Slurp
 Needs: Term::ReadLine::Gnu
 
+
+Copyright
+=========
+(c) 2014 Abram Hindle
+
+Under the same license as Perl

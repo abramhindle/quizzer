@@ -1,4 +1,7 @@
 #!/usr/bin/perl
+# (C) 2014 Abram Hindle
+# License: the same license as perl
+
 use strict;
 use warnings;
 
